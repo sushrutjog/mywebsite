@@ -14,9 +14,13 @@ body {
 
 /* Style the content that will become the texture */
 #website-content {
+    /* This setup hides the div from view but keeps it in the DOM 
+       so html2canvas can read its dimensions and styles. */
     position: absolute;
-    left: -9999px; /* Position off-screen */
-    width: 1024px; /* Fixed width for the texture */
+    left: -9999px;
+    
+    /* These are the styles html2canvas will read */
+    width: 1024px;
     background-color: #f0f0f0;
     padding: 40px;
     box-sizing: border-box;
