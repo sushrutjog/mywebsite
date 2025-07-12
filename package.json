@@ -1,0 +1,17 @@
+{
+  "name": "mobius-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "homepage": "https://sushrutjog.github.io/mywebsite",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^4.0.0",
+    "three": "^0.149.0"
+  }
+}
